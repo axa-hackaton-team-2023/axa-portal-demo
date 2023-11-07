@@ -7,8 +7,9 @@ export default defineConfig({
   plugins: [react(), federation({
     name: 'app',
     remotes: {
-      remoteApp: 'http://localhost:5001/assets/remoteEntry.js',
+      remoteApp: 'https://axa-hackaton-team-2023.github.io/eh-widget-app/assets/remoteEntry.js',
     },
     shared: ['react','react-dom']
   })],
+  base: '/axa-portal-demo/'
 });

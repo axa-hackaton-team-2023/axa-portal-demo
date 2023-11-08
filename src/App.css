@@ -1,0 +1,33 @@
+.page-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.widgetContainer{
+    margin-left: auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    &>*{
+        max-width: 500px;
+    }
+}
+
+.placeholder-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 32px;
+    gap: 16px;
+}
+
+.page-placeholder{
+    min-height: 32px;
+    background: #E5E5E5;
+    width: 100%;
+    border-radius: 8px;
+}

@@ -55,7 +55,7 @@ class AXAPage extends LitElement{
       ${resetBrowserDefaultStyles} ${style}
   
       <div class="pages-axa-main-page">
-        ${navbar} ${commercialHeroBanner}
+        ${navbar}
         <slot name="widget"></slot>
         ${policyFeatures} ${footer}
         ${footerSmall}

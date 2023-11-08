@@ -6,7 +6,7 @@ function App() {
   return (
     <>
         <AXAPage>
-            <p slot="widget"><Widget/></p>
+            <p slot="widget"><Widget propositionId={4} /></p>
         </AXAPage>
     </>
   )
